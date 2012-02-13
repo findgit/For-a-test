@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1" android:orientation="vertical">
+<TextView  
+	android:id="@+id/myText"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"/>
+<Button
+	android:id="@+id/myButton"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"/>
+<ImageView android:src="@drawable/test" android:id="@+id/imageView1" android:layout_width="177dp" android:layout_height="183dp" android:layout_gravity="center_horizontal"></ImageView>
+<AnalogClock android:layout_gravity="center_horizontal" android:id="@+id/analogClock1" android:layout_width="wrap_content" android:layout_height="wrap_content"></AnalogClock>
+</LinearLayout>
